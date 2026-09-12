@@ -20,31 +20,29 @@
 
 ## ✨ Features
 
-- 🏗️ **Kaggle-style Dataset** — 1,000 house records with 10 raw features
-- 🔧 **Feature Engineering** — 3 derived features: `House_Age`, `Sqft_Per_Room`, `Total_Rooms`
-- ⚙️ **Data Preprocessing** — StandardScaler normalization, 80/20 train-test split
-- 🤖 **Linear Regression Model** — Trained with scikit-learn
-- 📈 **Model Evaluation** — R², MAE, RMSE, MAPE, 5-Fold Cross Validation
-- 🔑 **Feature Importance** — Ranked by absolute scaled coefficients
-- 🧮 **Prediction Interface** — `predict_house_price()` function for custom predictions
-- 📊 **5 Visualizations** — Price distribution, correlation heatmap, EDA charts, actual vs predicted, residuals
+-  **Kaggle-style Dataset** — 1,000 house records with 10 raw features
+-  **Feature Engineering** — 3 derived features: `House_Age`, `Sqft_Per_Room`, `Total_Rooms`
+-  **Data Preprocessing** — StandardScaler normalization, 80/20 train-test split
+-  **Linear Regression Model** — Trained with scikit-learn
+-  **Model Evaluation** — R², MAE, RMSE, MAPE, 5-Fold Cross Validation
+-  **Feature Importance** — Ranked by absolute scaled coefficients
+-  **Prediction Interface** — `predict_house_price()` function for custom predictions
+-  **5 Visualizations** — Price distribution, correlation heatmap, EDA charts, actual vs predicted, residuals
 
 ---
 
-## 🗂️ Project Structure
+### 📂 Project Structure
 
-```
+```text
 HomePricer/
-│
-├── HomePricer_House_Price_Prediction.ipynb   # Main Jupyter Notebook
-├── house_prices.csv                          # Generated dataset (1000 rows)
-├── price_distribution.png                   # Price histogram charts
-├── correlation_heatmap.png                  # Feature correlation matrix
-├── eda_charts.png                           # EDA: Price vs key features
-├── model_evaluation.png                     # Actual vs Predicted + Residuals
-├── feature_importance.png                   # Feature importance bar chart
-└── README.md                                # This file
+├── HomePricer_House_Price_Prediction.ipynb  # Main Jupyter Notebook with core ML logic
+├── .gitignore                               # Specifies intentionally untracked files to ignore
+├── LICENSE                                  # MIT Open-source license documentation
+└── README.md                                # Project overview, architecture, and insights
 ```
+
+> 📊 **Note on Dataset & Visualizations:** The dataset (`house_prices.csv`) and exploratory plots (`.png`) are omitted from the root directory to maintain a clean production-ready repository. All charts, graphs, and model metrics are fully rendered and viewable directly inside the Jupyter Notebook.
+
 
 ---
 
